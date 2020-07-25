@@ -1,6 +1,10 @@
 public class School {
 
-    public School(list staff, list students) {
+    public School(String staff, String students) {
 
+    }
+
+    public String getStaff(int id) {
+        return "";
     }
 }
