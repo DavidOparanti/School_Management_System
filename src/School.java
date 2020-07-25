@@ -7,4 +7,8 @@ public class School {
     public String getStaff(int id) {
         return "";
     }
+
+    public String getStudent(int i) {
+        return "";
+    }
 }
