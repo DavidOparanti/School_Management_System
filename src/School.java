@@ -22,4 +22,8 @@ public class School {
     public int getStaffCount() {
         return this.staffCount;
     }
+
+    public String removeStaff(int i) {
+        return ""
+    }
 }

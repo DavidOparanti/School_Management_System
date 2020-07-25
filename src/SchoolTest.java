@@ -27,4 +27,9 @@ class SchoolTest {
     public void StaffPopulation() {
         assertEquals(25, sc.getStaffCount());
     }
+
+    @Test
+    public void removeStaff() {
+        assertEquals("", sc.removeStaff(3));
+    }
 }
