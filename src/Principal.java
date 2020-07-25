@@ -1,2 +1,2 @@
-public class Principal extends Staff implements adminitrative {
+public class Principal extends Staff implements administrative {
 }

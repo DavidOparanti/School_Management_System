@@ -1,7 +1,7 @@
 public class School {
 
-    int studentCount;
-    int staffCount;
+    private int studentCount;
+    private int staffCount;
 
     public School(String staff, String students) {
 
