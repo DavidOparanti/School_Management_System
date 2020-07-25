@@ -1,5 +1,7 @@
 public class School {
 
+    int studentCount;
+
     public School(String staff, String students) {
 
     }
@@ -10,5 +12,9 @@ public class School {
 
     public String getStudent(int i) {
         return "";
+    }
+
+    public int getStudentCount() {
+        return this.studentCount;
     }
 }
