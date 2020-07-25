@@ -1,6 +1,7 @@
 public class School {
 
     int studentCount;
+    int staffCount;
 
     public School(String staff, String students) {
 
@@ -16,5 +17,9 @@ public class School {
 
     public int getStudentCount() {
         return this.studentCount;
+    }
+
+    public int getStaffCount() {
+        return this.staffCount;
     }
 }

@@ -23,5 +23,8 @@ class SchoolTest {
         assertEquals(100, sc.getStudentCount());
     }
 
-    
+    @Test
+    public void StaffPopulation() {
+        assertEquals(25, sc.getStaffCount());
+    }
 }
