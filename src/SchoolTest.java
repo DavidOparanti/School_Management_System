@@ -32,4 +32,9 @@ class SchoolTest {
     public void removeStaff() {
         assertEquals("", sc.removeStaff(3));
     }
+
+    @Test
+    public void expelledStudent() {
+        assertEquals("", sc.expellStudent(1));
+    }
 }

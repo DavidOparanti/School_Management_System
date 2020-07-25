@@ -24,6 +24,10 @@ public class School {
     }
 
     public String removeStaff(int i) {
-        return ""
+        return "";
+    }
+
+    public String expellStudent(int i) {
+        return "";
     }
 }
