@@ -1,4 +1,4 @@
-public class School {
+public abstract class School {
 
     int studentCount;
     int staffCount;
