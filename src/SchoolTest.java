@@ -3,7 +3,14 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class SchoolTest {
+    /**
+    * Global Variable
+    */
     School sc = new School("David Oparanti", "Smith Wood");
+    Staff principal = new Principal("Malik Bello");
+    Staff teacher = new Teachers("Benedict Opanachi");
+    Students student = new Students("Olamilekan");
+
 
 
     @Test
