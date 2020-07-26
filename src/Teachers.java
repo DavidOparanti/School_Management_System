@@ -26,4 +26,9 @@ public class Teachers extends Staff {
     public String getFullName() {
         return null;
     }
+
+    @Override
+    public int getId() {
+        return 0;
+    }
 }

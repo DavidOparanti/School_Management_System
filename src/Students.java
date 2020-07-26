@@ -12,4 +12,16 @@ public class Students {
         this.grade = grade;
 
     }
+
+    public int getId() {
+        return 0;
+    }
+
+    public String getFullName() {
+        return "";
+    }
+
+    public int getGrade() {
+        return 0;
+    }
 }

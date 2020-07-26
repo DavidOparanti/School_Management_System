@@ -28,7 +28,17 @@ public class Principal extends Staff implements administrative {
     }
 
     @Override
+    public int getId() {
+        return 0;
+    }
+
+    @Override
     public void expelledStudent() {
+
+    }
+
+    @Override
+    public void assignedClassToTeacher() {
 
     }
 }

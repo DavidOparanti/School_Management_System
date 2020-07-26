@@ -13,6 +13,12 @@ class SchoolTest {
 
 
 
+    @Test
+    public void getId(){
+        assertEquals(3,teacher.getId());
+        assertEquals(3,student.getId());
+        assertEquals(1, principal.getId());
+    }
 
     @Test
     public void getStaff() {
@@ -38,6 +44,8 @@ class SchoolTest {
     @Test
     public void fullName() {
         assertEquals("David Oparanti", teacher.getFullName());
+        assertEquals("Benedict Opanachi", student.getFullName());
+        assertEquals("Akanbi Kikelomo", principal.getFullName());
     }
 
     @Test
@@ -50,6 +58,11 @@ class SchoolTest {
     public void getStudent() {
         assertEquals("Bob Gass", sc.getStudent());
 
+    }
+
+    @Test
+    public void getGrade() {
+        assertEquals(3,student.getGrade());
     }
 
     @Test
