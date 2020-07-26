@@ -1,41 +1,59 @@
-public class Students {
+public class Students<amount, amt> {
+
     private int id;
     private String firstName;
     private String lastName;
     private int grade;
     private int schoolFee;
-    private int feePid;
+    private int feePid = 0;
+    private static int studentCount = 0;
 
 
-    public Students(int id, String firstName, String lastName, int grade) {
+    /**
+     *Create a new Student object.
+     * @param id for the student.
+     * @param firstName for the student
+     * @param lastName for the student
+     * @param grade for the student
+     * @param schoolFee for the student
+     */
+    public Students(int id, String firstName, String lastName, int grade, int schoolFee) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.grade = grade;
+        studentCount++;
 
     }
 
-    public void payFees() {
+    /**
+     * Pay student school fee
+     */
+    public void payFees(int amount) {
+        this.feePid = amount;
+    }
 
+    public int getStudentCount() {
+        return studentCount;
     }
 
     public int getFeeBalance() {
-        return 0;
+        return this.schoolFee - feePid;
     }
 
     public  int getSchoolFee() {
-        return 0;
+        return this.schoolFee;
     }
 
     public int getId() {
-        return 0;
+        return this.id;
     }
 
     public String getFullName() {
-        return "";
+        return this.firstName + "" + this.lastName;
     }
 
     public int getGrade() {
-        return 0;
+        return this.grade;
     }
 }

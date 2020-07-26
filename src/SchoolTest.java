@@ -9,7 +9,7 @@ class SchoolTest {
     School sc = new School("David Oparanti", "Smith Wood");
     Staff principal = new Principal(1,"Idowu","Malik Bello", 400.00);
     Staff teacher = new Teachers(3, "Benedict", "Opanachi", 300.00);
-    Students student = new Students(1,"Isreal", "Olamilekan", 4);
+    Students student = new Students(1,"Isreal", "Olamilekan", 4, 2000);
 
 
 
@@ -28,8 +28,9 @@ class SchoolTest {
     }
 
     @Test
-    public void StaffPopulation() {
+    public void population() {
         assertEquals(25, sc.getStaffCount());
+        //assertEquals(1000, sc.getStudentCount);
     }
 
     @Test
@@ -40,6 +41,7 @@ class SchoolTest {
     @Test
     public void getSalay() {
         assertEquals(500, teacher.getSalary());
+        assertEquals(700, principal.getSalary());
     }
 
     @Test
