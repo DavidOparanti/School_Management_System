@@ -65,7 +65,7 @@ class SchoolTest {
 
     @Test
     public void getGrade() {
-        assertEquals(3,student.getGrade());
+        assertEquals(4,student.getGrade());
     }
 
     @Test

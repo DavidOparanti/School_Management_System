@@ -11,11 +11,11 @@ public class Students<amount, amt> {
 
     /**
      *Create a new Student object.
-     * @param id for the student.
-     * @param firstName for the student
-     * @param lastName for the student
-     * @param grade for the student
-     * @param schoolFee for the student
+     * @param id for the student id.
+     * @param firstName for the student first name
+     * @param lastName for the student last name
+     * @param grade for the student grade
+     * @param schoolFee for the student school fee
      */
     public Students(int id, String firstName, String lastName, int grade, int schoolFee) {
         this.id = id;
