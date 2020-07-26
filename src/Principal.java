@@ -26,4 +26,9 @@ public class Principal extends Staff implements administrative {
     public String getFullName() {
         return null;
     }
+
+    @Override
+    public void expelledStudent() {
+
+    }
 }
