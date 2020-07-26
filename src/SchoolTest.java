@@ -15,13 +15,13 @@ class SchoolTest {
 
     @Test
     public void getStaff() {
-        assertEquals("David Oparnti", sc.getStaff(1));
+        assertEquals("David Oparnti", sc.getStaff());
 
     }
 
      @Test
     public void getStudent() {
-        assertEquals("Bob Gass", sc.getStudent(2));
+        assertEquals("Bob Gass", sc.getStudent());
 
     }
 
@@ -37,11 +37,11 @@ class SchoolTest {
 
     @Test
     public void removeStaff() {
-        assertEquals("", sc.removeStaff(3));
+        assertEquals("", sc.removeStaff());
     }
 
     @Test
     public void expelledStudent() {
-        assertEquals("", sc.expellStudent(1));
+        assertEquals("", sc.expellStudent());
     }
 }

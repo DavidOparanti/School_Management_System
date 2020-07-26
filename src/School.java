@@ -7,11 +7,11 @@ public class School {
 
     }
 
-    public String getStaff(int id) {
+    public String getStaff() {
         return "";
     }
 
-    public String getStudent(int i) {
+    public String getStudent() {
         return "";
     }
 
@@ -23,11 +23,11 @@ public class School {
         return this.staffCount;
     }
 
-    public String removeStaff(int i) {
+    public String removeStaff() {
         return "";
     }
 
-    public String expellStudent(int i) {
+    public String expellStudent() {
         return "";
     }
 }
