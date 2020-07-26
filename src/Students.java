@@ -3,6 +3,8 @@ public class Students {
     private String firstName;
     private String lastName;
     private int grade;
+    private int schoolFee;
+    private int feePid;
 
 
     public Students(int id, String firstName, String lastName, int grade) {
@@ -10,6 +12,10 @@ public class Students {
         this.firstName = firstName;
         this.lastName = lastName;
         this.grade = grade;
+
+    }
+
+    public void payFees() {
 
     }
 
