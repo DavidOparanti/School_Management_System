@@ -8,4 +8,6 @@ public abstract class Staff {
     public abstract String getFullName();
 
     public abstract int getId();
+
+
 }

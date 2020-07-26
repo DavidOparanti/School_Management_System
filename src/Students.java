@@ -23,6 +23,10 @@ public class Students {
         return 0;
     }
 
+    public  int getSchoolFee() {
+        return 0;
+    }
+
     public int getId() {
         return 0;
     }

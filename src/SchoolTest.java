@@ -18,6 +18,7 @@ class SchoolTest {
         assertEquals(3,teacher.getId());
         assertEquals(3,student.getId());
         assertEquals(1, principal.getId());
+        //assertEquals(3000, principal.getEpence());
     }
 
     @Test
