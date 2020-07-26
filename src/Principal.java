@@ -5,4 +5,14 @@ public class Principal extends Staff implements administrative {
         super();
         this.name = name;
     }
+
+    @Override
+    public int getSalary() {
+        return 0;
+    }
+
+    @Override
+    public int TotalMoneyEarn() {
+        return 0;
+    }
 }
