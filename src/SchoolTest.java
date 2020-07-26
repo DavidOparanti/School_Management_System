@@ -13,10 +13,30 @@ class SchoolTest {
 
 
 
+
     @Test
     public void getStaff() {
         assertEquals("David Oparnti", sc.getStaff());
 
+    }
+
+    @Test
+    public void StaffPopulation() {
+        assertEquals(25, sc.getStaffCount());
+    }
+
+    @Test
+    public void removeStaff() {
+        assertEquals("", sc.removeStaff());
+    }
+
+    @Test
+    public void getSalay() {
+        assertEquals(500, teacher.getSalary());
+    }
+    @Test
+    public void paySalary() {
+        assertEquals(5000, teacher.TotalMoneyEarn() + teacher.getSalary());
     }
 
      @Test
@@ -30,15 +50,6 @@ class SchoolTest {
         assertEquals(100, sc.getStudentCount());
     }
 
-    @Test
-    public void StaffPopulation() {
-        assertEquals(25, sc.getStaffCount());
-    }
-
-    @Test
-    public void removeStaff() {
-        assertEquals("", sc.removeStaff());
-    }
 
     @Test
     public void expelledStudent() {
