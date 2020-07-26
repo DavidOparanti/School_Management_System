@@ -1,7 +1,14 @@
+import java.util.List;
+
 public class School {
 
     private int studentCount;
     private int staffCount;
+    private List<Teachers> staffs;
+    private List<Students> students;
+    private double totalMoneyEarn = 0;
+    private double totalMoneySpent = 0;
+
 
     public School(String staff, String students) {
 

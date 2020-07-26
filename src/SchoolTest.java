@@ -39,6 +39,7 @@ class SchoolTest {
         assertEquals(5000, teacher.TotalMoneyEarn() + teacher.getSalary());
     }
 
+
      @Test
     public void getStudent() {
         assertEquals("Bob Gass", sc.getStudent());
