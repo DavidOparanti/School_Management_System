@@ -1,7 +1,15 @@
 public class Teachers extends Staff {
-    private String name;
-    public Teachers(String name) {
-        this.name = name;
+    private int id;
+    private String firstName;
+    private String lastName;
+    private double salary;
+    private double totalMoneyEarn;
+
+    public Teachers(int id, String firstName, String lastName, double salary) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.salary = salary;
     }
 
     @Override
