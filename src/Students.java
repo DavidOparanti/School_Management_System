@@ -19,6 +19,10 @@ public class Students {
 
     }
 
+    public int getFeeBalance() {
+        return 0;
+    }
+
     public int getId() {
         return 0;
     }
