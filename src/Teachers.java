@@ -5,7 +5,7 @@ public class Teachers extends Staff {
     private double salary;
     private double totalMoneyEarn;
 
-    public Teachers(int i, String firstName, String lastName, double v) {
+    public Teachers(int id, String firstName, String lastName, double salary) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -20,5 +20,10 @@ public class Teachers extends Staff {
     @Override
     public int TotalMoneyEarn() {
         return 0;
+    }
+
+    @Override
+    public String getFullName() {
+        return null;
     }
 }

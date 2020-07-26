@@ -1,9 +1,15 @@
 public class Principal extends Staff implements administrative {
-    private  String name;
+    private int id;
+    private String firstName;
+    private String lastName;
+    private double salary;
+    private double moneyEarned;
 
-    public Principal(String name) {
-        super();
-        this.name = name;
+    public Principal(int id, String firstName, String lastName, double salary) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.salary = salary;
     }
 
     @Override
@@ -14,5 +20,10 @@ public class Principal extends Staff implements administrative {
     @Override
     public int TotalMoneyEarn() {
         return 0;
+    }
+
+    @Override
+    public String getFullName() {
+        return null;
     }
 }
