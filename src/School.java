@@ -4,10 +4,10 @@ public class School {
 
     private int studentCount;
     private int staffCount;
-    private List<Teachers> staffs;
+    private List<Staff> staffs;
     private List<Students> students;
-    private double totalMoneyEarn = 0;
-    private double totalMoneySpent = 0;
+    private double totalMoneyEarn = 0.0d;
+    private double totalMoneySpent = 0.0d;
 
 
     public School(String staff, String students) {

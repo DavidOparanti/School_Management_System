@@ -8,7 +8,7 @@ class SchoolTest {
     */
     School sc = new School("David Oparanti", "Smith Wood");
     Staff principal = new Principal("Malik Bello");
-    Staff teacher = new Teachers("Benedict Opanachi");
+    Staff teacher = new Teachers(3, "Benedict", "Opanachi", 300.00);
     Students student = new Students("Olamilekan");
 
 
