@@ -33,26 +33,50 @@ public class Students<amount, amt> {
         this.feePid = amount;
     }
 
+    /**
+     *
+     * @return the total number of students
+     */
     public int getStudentCount() {
         return studentCount;
     }
 
+    /**
+     *
+     * @return the amount owns(the school fees balance)
+     */
     public int getFeeBalance() {
         return this.schoolFee - feePid;
     }
 
+    /**
+     *
+     * @return return the school to be paid by the student.
+     */
     public  int getSchoolFee() {
         return this.schoolFee;
     }
 
+    /**
+     *
+     * @return the student ID;
+     */
     public int getId() {
         return this.id;
     }
 
+    /**
+     *
+     * @return the full name of student.
+     */
     public String getFullName() {
         return this.firstName + "" + this.lastName;
     }
 
+    /**
+     *
+     * @return the current grade of the student
+     */
     public int getGrade() {
         return this.grade;
     }
