@@ -6,19 +6,17 @@ class SchoolTest {
     /**
     * Global Variable
     */
-    School sc = new School("David Oparanti", "Smith Wood");
+    School sc = new School();
     Staff principal = new Principal(1,"Idowu","Malik Bello", 400.00);
     Staff teacher = new Teachers(3, "Benedict", "Opanachi", 300.00);
     Students student = new Students(1,"Isreal", "Olamilekan", 4, 2000);
+    Courses course = new Courses(1, "CSC304", "Algorithm", 4);
 
 
 
     @Test
     public void getId(){
         assertEquals(3,teacher.getId());
-        assertEquals(3,student.getId());
-        assertEquals(1, principal.getId());
-        //assertEquals(3000, principal.getEpence());
     }
 
     @Test

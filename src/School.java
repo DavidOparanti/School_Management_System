@@ -11,7 +11,7 @@ public class School {
 
 
 
-    public School(String staff, String students) {
+    public School() {
 
     }
 
