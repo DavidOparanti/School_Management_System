@@ -36,14 +36,11 @@ class SchoolTest {
     @Test
     public void getSalay() {
         assertEquals(500, teacher.getSalary());
-        assertEquals(700, principal.getSalary());
     }
 
     @Test
     public void fullName() {
         assertEquals("David Oparanti", teacher.getFullName());
-        assertEquals("Benedict Opanachi", student.getFullName());
-        assertEquals("Akanbi Kikelomo", principal.getFullName());
     }
 
     @Test

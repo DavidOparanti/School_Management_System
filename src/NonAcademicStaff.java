@@ -1,4 +1,11 @@
 public class NonAcademicStaff  extends Staff{
+    Boolean canTeach;
+
+    public NonAcademicStaff(int id, String firstName, String lastName, Boolean canTeach) {
+        super(id, firstName, lastName);
+        this.canTeach = false;
+    }
+
     @Override
     public int getSalary() {
         return 0;

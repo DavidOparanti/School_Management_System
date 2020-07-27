@@ -1,10 +1,19 @@
 public abstract class Persion {
+    private int id ;
     private String firstName;
     private String lastName;
 
-    public Persion(String firstName, String lastName){
+    public Persion(int id, String firstName, String lastName){
+        this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
+    }
+
+    public int getId() {
+        return this.id;
+    }
+    public void setId(int id){
+        this.id = id;
     }
 
     public String getFirstName() {
@@ -21,5 +30,9 @@ public abstract class Persion {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public String getFullName() {
+        return this.firstName + " " + this.lastName;
     }
 }
