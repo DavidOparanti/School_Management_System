@@ -27,7 +27,7 @@ class SchoolTest {
      List<Students> studentsList = new ArrayList<>();
      List<Staff> staffsList = new ArrayList<>();
      List<Courses> courseList = new ArrayList<>();
-     List<>
+     List<Classes> classList = new ArrayList<>();
 
 
 
