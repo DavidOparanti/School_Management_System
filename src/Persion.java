@@ -1,4 +1,4 @@
-public class Persion {
+public abstract class Persion {
     private String firstName;
     private String lastName;
 
