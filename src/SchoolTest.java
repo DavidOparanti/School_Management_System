@@ -33,10 +33,7 @@ class SchoolTest {
         //assertEquals(1000, sc.getStudentCount);
     }
 
-    @Test
-    public void removeStaff() {
-        assertEquals("", sc.removeStaff());
-    }
+
 
     @Test
     public void getSalay() {
@@ -74,8 +71,4 @@ class SchoolTest {
     }
 
 
-    @Test
-    public void expelledStudent() {
-        assertEquals("", sc.expellStudent());
-    }
 }
