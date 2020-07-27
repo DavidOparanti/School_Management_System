@@ -1,7 +1,7 @@
-public class Classes extends School{
+public class Classes {
 
 
     public Classes(String staff, String students) {
-        super();
+
     }
 }
