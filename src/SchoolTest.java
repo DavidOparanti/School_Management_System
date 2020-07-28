@@ -5,7 +5,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class SchoolTest {
+class SchoolTest <principal> {
     /**
     * Global Variable
      *
@@ -24,14 +24,17 @@ class SchoolTest {
      * List of classes to poly fill test.
      */
 
-     List<Students> studentsList = new ArrayList<>();
+     List<Students> studentsList = new ArrayList<Students>();
+     //System.out.println(studentsList.toString())
      List<Staff> staffsList = new ArrayList<>();
      List<Courses> courseList = new ArrayList<>();
      List<Classes> classList = new ArrayList<>();
 
+    /**
+     * list of staff
+     */
+    
 
-
-    School decagon = new School()
 
 
 
@@ -39,20 +42,6 @@ class SchoolTest {
     public void getId(){
         assertEquals(3,teacher.getId());
     }
-
-    @Test
-    public void getStaff() {
-        assertEquals("David Oparnti", sc.getStaff());
-
-    }
-
-    @Test
-    public void population() {
-        assertEquals(25, sc.getStaffCount());
-        //assertEquals(1000, sc.getStudentCount);
-    }
-
-
 
     @Test
     public void getSalay() {
@@ -70,21 +59,10 @@ class SchoolTest {
     }
 
 
-     @Test
-    public void getStudent() {
-        assertEquals("Bob Gass", sc.getStudent());
 
-    }
 
-    @Test
-    public void getGrade() {
-        assertEquals(4,student.getGrade());
-    }
 
-    @Test
-    public void studentsPopulation() {
-        assertEquals(100, sc.getStudentCount());
-    }
+
 
 
 }

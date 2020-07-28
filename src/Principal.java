@@ -1,15 +1,10 @@
 public class Principal extends Staff implements administrative {
-    private int id;
-    private String firstName;
-    private String lastName;
-    private double salary;
+
     private double moneyEarned;
 
     public Principal(int id, String firstName, String lastName, double salary) {
-        this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.salary = salary;
+        super(id, firstName, lastName, salary);
+
     }
 
     @Override

@@ -1,25 +1,15 @@
 public class Teachers extends Staff {
-    private int id;
-    private String firstName;
-    private String lastName;
-    private double salary;
+
+
     private double totalMoneyEarn;
 
+
     public Teachers(int id, String firstName, String lastName, double salary) {
-        this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.salary = salary;
+        super(id, firstName, lastName, salary);
+
+
     }
 
-    /**
-     *
-     * @return the Teacher salary
-     */
-    @Override
-    public int getSalary() {
-        return (int) this.salary;
-    }
 
     /**
      *
@@ -30,21 +20,10 @@ public class Teachers extends Staff {
         return 0;
     }
 
-    /**
-     *
-     * @return The teachers full name;
-     */
     @Override
-    public String getFullName() {
-        return this.firstName + " " + this.lastName;
+    public int getSalary() {
+        return 0;
     }
 
-    /**
-     *
-     * @return the Teacher ID;
-     */
-    @Override
-    public int getId() {
-        return this.id;
-    }
+
 }
