@@ -7,14 +7,16 @@ public class NonAcademicStaff  extends Staff{
     }
 
     @Override
-    public int getSalary() {
+    public int TotalMoneyEarn() {
         return 0;
     }
 
     @Override
-    public int TotalMoneyEarn() {
-        return 0;
+    public int getSalary() {
+        return this.getSalary();
     }
+
+
 
     @Override
     public String getFullName() {
@@ -25,4 +27,5 @@ public class NonAcademicStaff  extends Staff{
     public int getId() {
         return 0;
     }
+
 }

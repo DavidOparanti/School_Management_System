@@ -1,11 +1,12 @@
 public class Teachers extends Staff {
 
-
+    Boolean canTeach;
     private double totalMoneyEarn;
 
 
     public Teachers(int id, String firstName, String lastName, double salary) {
         super(id, firstName, lastName, salary);
+        this.canTeach = true;
 
 
     }
@@ -13,6 +14,10 @@ public class Teachers extends Staff {
     @Override
     public int TotalMoneyEarn() {
         return 0;
+    }
+
+    public Boolean getCanTeach() {
+        return this.canTeach;
     }
 
     @Override
