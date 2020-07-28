@@ -7,13 +7,15 @@ public class Principal extends Staff implements administrative {
 
     }
 
+
+
     @Override
-    public int getSalary() {
+    public int TotalMoneyEarn() {
         return 0;
     }
 
     @Override
-    public int TotalMoneyEarn() {
+    public int getSalary() {
         return 0;
     }
 

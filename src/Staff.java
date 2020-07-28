@@ -10,4 +10,8 @@ public abstract class Staff extends Persion {
     public abstract int TotalMoneyEarn();
 
     public abstract int getSalary();
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
 }

@@ -10,11 +10,6 @@ public class Teachers extends Staff {
 
     }
 
-
-    /**
-     *
-     * @return The total money earn by the teacher
-     */
     @Override
     public int TotalMoneyEarn() {
         return 0;
@@ -24,6 +19,18 @@ public class Teachers extends Staff {
     public int getSalary() {
         return 0;
     }
+
+
+    public double getTotalMoneyEarn() {
+        return totalMoneyEarn;
+    }
+
+    public void setTotalMoneyEarn(double salary) {
+        this.totalMoneyEarn += totalMoneyEarn;
+    }
+
+
+
 
 
 }
