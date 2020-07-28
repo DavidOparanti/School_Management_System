@@ -20,12 +20,12 @@ public class NonAcademicStaff  extends Staff{
 
     @Override
     public String getFullName() {
-        return null;
+        return this.getFullName();
     }
 
     @Override
     public int getId() {
-        return 0;
+        return this.getId();
     }
 
 }
