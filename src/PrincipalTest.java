@@ -25,6 +25,10 @@ class PrincipalTest {
     }
 
     @Test
+    void getFirstName() {
+        assertEquals("David",principal.getFirstName());
+    }
+    @Test
     void getId() {
         assertEquals(1, principal.getId());
     }

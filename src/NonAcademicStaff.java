@@ -28,4 +28,29 @@ public class NonAcademicStaff  extends Staff{
         return this.getId();
     }
 
+    @Override
+    public void setId(int id) {
+
+    }
+
+    @Override
+    public String getFirstName() {
+        return null;
+    }
+
+    @Override
+    public void setFirstName(String firstName) {
+
+    }
+
+    @Override
+    public String getLastName() {
+        return null;
+    }
+
+    @Override
+    public void setLastName(String lastName) {
+
+    }
+
 }
