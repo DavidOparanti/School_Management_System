@@ -1,4 +1,5 @@
 public abstract class Persion {
+
     private int id ;
     private String firstName;
     private String lastName;
@@ -14,30 +15,17 @@ public abstract class Persion {
     }
 
 
-    public int getId() {
-        return this.id;
-    }
-    public void setId(int id){
-        this.id = id;
-    }
+    public abstract int getId() ;
 
-    public String getFirstName() {
-        return firstName;
-    }
+    public abstract void setId(int id);
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
+    public abstract String getFirstName();
 
-    public String getLastName() {
-        return lastName;
-    }
+    public abstract void setFirstName(String firstName) ;
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
+    public abstract String getLastName();
 
-    public String getFullName() {
-        return this.firstName + " " + this.lastName;
-    }
+    public abstract void setLastName(String lastName);
+
+    public abstract String getFullName();
 }

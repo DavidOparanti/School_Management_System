@@ -2,6 +2,10 @@ public class Teachers extends Staff {
 
     Boolean canTeach;
     private double totalMoneyEarn;
+    private int id;
+    private int salary;
+    private String firstName;
+    private String lastName;
 
 
     public Teachers(int id, String firstName, String lastName, double salary) {
@@ -22,7 +26,7 @@ public class Teachers extends Staff {
 
     @Override
     public int getSalary() {
-        return 0;
+        return this.salary;
     }
 
 
@@ -35,4 +39,39 @@ public class Teachers extends Staff {
     }
 
 
+    @Override
+    public int getId() {
+        return this.id;
+    }
+
+    @Override
+    public void setId(int id) {
+       this.id = id;
+    }
+
+    @Override
+    public String getFirstName() {
+        return this.firstName;
+    }
+
+    @Override
+    public void setFirstName(String firstName) {
+       this.firstName = firstName;
+    }
+
+    @Override
+    public String getLastName() {
+        return this.lastName;
+    }
+
+    @Override
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+
+    }
+
+    @Override
+    public String getFullName() {
+        return this.firstName + " " + this.lastName;
+    }
 }

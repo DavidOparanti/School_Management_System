@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class PrincipalTest {
     /**
-     * Principal is instantiated global for the purpose of the overall test;
+     * Principal is instantiated globally for the purpose of the overall test;
      *
      */
     Principal principal = new Principal(1,"David", "Oparanti",25_000.00);
