@@ -7,6 +7,9 @@ public class Students extends Persion {
     private double feePaid;
     private double feeOwn;
     private List course;
+    private int id;
+    private String firstName;
+    private String lastName;
 
     public Students(int id, String firstName, String lastName, int grad, double schoolFee) {
         super(id, firstName, lastName);
@@ -20,37 +23,37 @@ public class Students extends Persion {
 
     @Override
     public int getId() {
-        return 0;
+        return this. id;
     }
 
     @Override
     public void setId(int id) {
-
+        this.id = id;
     }
 
     @Override
     public String getFirstName() {
-        return null;
+        return this.firstName;
     }
 
     @Override
     public void setFirstName(String firstName) {
-
+        this.firstName = this.firstName;
     }
 
     @Override
     public String getLastName() {
-        return null;
+        return this.lastName;
     }
 
     @Override
     public void setLastName(String lastName) {
-
+        this.lastName = lastName;
     }
 
     @Override
     public String getFullName() {
-        return null;
+        return this.firstName + " " + this.lastName;
     }
 
     public int getGrade() {
