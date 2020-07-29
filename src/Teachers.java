@@ -7,7 +7,13 @@ public class Teachers extends Staff {
     private String firstName;
     private String lastName;
 
-
+    /**
+     *
+     * @param id for id
+     * @param firstName for first name;
+     * @param lastName for last name;
+     * @param salary for salary
+     */
     public Teachers(int id, String firstName, String lastName, double salary) {
         super(id, firstName, lastName, salary);
         this.canTeach = true;
@@ -17,7 +23,8 @@ public class Teachers extends Staff {
 
     @Override
     public int TotalMoneyEarn() {
-        return 0;
+        totalMoneyEarn = totalMoneyEarn + salary;
+        return (int) totalMoneyEarn;
     }
 
     public Boolean getCanTeach() {

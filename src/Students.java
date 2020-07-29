@@ -80,8 +80,9 @@ public class Students extends Persion {
         return feePaid;
     }
 
-    public void setFeePaid(double feePaid) {
+    public double setFeePaid(double feePaid) {
         this.feePaid = feePaid;
+        return feePaid;
     }
 
     public double getFeeOwn() {
