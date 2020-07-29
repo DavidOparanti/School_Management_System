@@ -14,6 +14,9 @@ public class Students extends Persion {
         this.grad = grad;
         this.schoolFee = schoolFee;
     }
+    public Students(int id) {
+        super(id);
+    }
 
     public int getGrade() {
         return this.grad;

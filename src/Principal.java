@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Principal extends Staff implements administrative {
 
     private double moneyEarned;
@@ -11,26 +14,30 @@ public class Principal extends Staff implements administrative {
 
     @Override
     public int TotalMoneyEarn() {
-        return 1;
+        return (int) this.getTotalMoneyEarn();
     }
 
     @Override
     public int getSalary() {
-        return 0;
+        return this.getSalary();
     }
 
     @Override
     public String getFullName() {
-        return null;
+        return this.getFullName();
     }
 
     @Override
     public int getId() {
-        return 0;
+        return this.getId();
     }
 
     @Override
     public void expelledStudent() {
+        List<String> stu = new ArrayList<>();
+        stu.add("Benedict");
+        School sch = new School(stu);
+
 
     }
 

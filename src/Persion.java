@@ -9,6 +9,11 @@ public abstract class Persion {
         this.lastName = lastName;
     }
 
+    public Persion(int id) {
+        this.id = id;
+    }
+
+
     public int getId() {
         return this.id;
     }
