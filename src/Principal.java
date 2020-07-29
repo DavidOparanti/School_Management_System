@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-
 public class Principal extends Staff implements administrative {
 
     private double moneyEarned;
@@ -34,12 +31,9 @@ public class Principal extends Staff implements administrative {
 
     @Override
     public void expelledStudent() {
-        List<String> stu = new ArrayList<>();
-        stu.add("Benedict");
-        School sch = new School(stu);
-
 
     }
+
 
     @Override
     public void assignedClassToTeacher() {
