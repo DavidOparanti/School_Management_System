@@ -2,7 +2,7 @@ public abstract class Staff extends Persion {
 
 
     private double salary;
-    private double totalMoneyEarn = 0;
+    private double totalMoneyEarn;
 
 
     public Staff(int id, String firstName, String lastName, double salary) {
