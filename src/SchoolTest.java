@@ -1,5 +1,37 @@
-class SchoolTest <principal> {
+import org.junit.jupiter.api.Test;
 
+class SchoolTest <principal> {
+    @Test
+    void getTeachers() {
+    }
+
+    @Test
+    void addTeacher() {
+    }
+
+    @Test
+    void getStudents() {
+    }
+
+    @Test
+    void addStudent() {
+    }
+
+    @Test
+    void getTotalMoneyEarned() {
+    }
+
+    @Test
+    void updateTotalMoneyEarned() {
+    }
+
+    @Test
+    void getTotalMoneySpent() {
+    }
+
+    @Test
+    void updateTotalMoneySpent() {
+    }
 
 
 //    /**
