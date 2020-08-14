@@ -37,7 +37,7 @@ The diagram below model the inheritance and the relationship between the classes
 
 ## Acknowledgments
 
-* All Decagon Java Stack Leads and associates.(For taking out time to put ous through)
+* All Decagon Java Stack Leads and associates.(For taking out time to puting us through)
 * Decagon (for providing enabling environment to learn)
 * My Stack colleagues.(These are amazing individual.) 
 
